@@ -5,6 +5,7 @@ import matplotlib.ticker as tick
 import re
 import BVSparameter
 
+
 # A='cifファイル名', B=Cation原子番号,C=Anion原子番号
 # D = 対象Cationの価数, E = Cation.価数.Anion.価数.reference (例：'Pb2O-2bs')
 def cifcheck(A,B,C,D,E):
